@@ -1,0 +1,15 @@
+create table if not exists guaranteed_student_loan_approval(
+authorizer_id bigint not null,
+loan_code varchar(255) null,
+loan_gaurantee_code_name varchar(255) null,
+loan_sanction_approval_mail varchar(255) null,
+sanction_verifier varchar(255) null,
+loan_process_completion_team varchar(255) null,
+email_group varchar(255) null,
+ref_data_id bigint null,
+sequence Integer null,
+modular_data varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint guaranteed_student_loan_approval_pk primary key(authorizer_id));
